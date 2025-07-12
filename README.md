@@ -14,28 +14,4 @@
 2. **Susmita Kumari**  
    📧 susmitakumari1571@gmail.com
 
----
-
-## 🚀 Project Goals
-
-- Allow users to post questions and answers.
-- Enable upvoting/downvoting to promote helpful content.
-- Clean, responsive UI with minimal distractions.
-- Easy-to-use authentication and content management.
-
----
-
-## 🛠️ Tech Stack (Optional)
-
-- Frontend: HTML, CSS, JavaScript / React (if used)
-- Backend: Node.js / Express / Django / etc.
-- Database: MongoDB / MySQL / Firebase
-- Hosting: GitHub Pages / Vercel / Heroku / Netlify
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 
