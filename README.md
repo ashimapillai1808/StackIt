@@ -1,69 +1,41 @@
-# React + TypeScript + Vite
+# StackIt - A Minimal Q&A Forum Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Problem Statement
 
-Currently, two official plugins are available:
+**StackIt** is a minimalistic Question & Answer forum platform designed to provide a clutter-free, user-friendly space for knowledge sharing. Inspired by platforms like Stack Overflow, StackIt emphasizes simplicity, fast interactions, and community-driven discussions while minimizing distractions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 👥 Team Members
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+1. **Ashima Pillai**  
+   📧 2203051050767@paruluniversity.ac.in
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+2. **Susmita Kumari**  
+   📧 susmitakumari1571@gmail.com
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🚀 Project Goals
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- Allow users to post questions and answers.
+- Enable upvoting/downvoting to promote helpful content.
+- Clean, responsive UI with minimal distractions.
+- Easy-to-use authentication and content management.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🛠️ Tech Stack (Optional)
+
+- Frontend: HTML, CSS, JavaScript / React (if used)
+- Backend: Node.js / Express / Django / etc.
+- Database: MongoDB / MySQL / Firebase
+- Hosting: GitHub Pages / Vercel / Heroku / Netlify
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+
